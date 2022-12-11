@@ -38,7 +38,7 @@ public class Lesson7_c  {
          StringBuilder stringFile = new StringBuilder();
          FileInputStream fin = null;
          try {
-             fin = new FileInputStream("G:\\Project_Xtel\\Java_Core_Basic\\src\\input.txt");
+             fin = new FileInputStream("G:\\Project_Xtel\\Java_Core_Basic\\resources\\input.txt");
              int i = 0;
              while ((i = fin.read()) != -1) {
                  stringFile.append((char)i);
