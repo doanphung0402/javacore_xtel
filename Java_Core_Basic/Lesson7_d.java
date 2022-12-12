@@ -74,7 +74,6 @@ public class Lesson7_d {
                  i++;
              }
 
-
         }
     }
 }
