@@ -38,7 +38,7 @@ public class Lesson7_c  {
          StringBuilder stringFile = new StringBuilder();
          FileInputStream fin = null;
          try {
-             fin = new FileInputStream("G:\\Project_Xtel\\Java_Core_Basic\\resources\\input.txt");
+             fin = new FileInputStream("Java_Core_Basic/resources/input.txt");
              int i = 0;
              while ((i = fin.read()) != -1) {
                  stringFile.append((char)i);
@@ -73,7 +73,7 @@ public class Lesson7_c  {
               System.out.print(x+" ");
           }
        }catch (IOException e){
-           System.out.println("ko doc dc file");
+           System.out.println("Khong doc duoc file");
        }
     }
 }
