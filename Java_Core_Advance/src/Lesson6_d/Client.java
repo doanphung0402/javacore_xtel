@@ -32,7 +32,6 @@ public class Client {
             clientSocket = new Socket(IP,PORT);
             out = new PrintWriter(clientSocket.getOutputStream());
             in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
-
             Thread sender = new Thread(new Runnable() {
                 int  i =0 ;
                 @Override
