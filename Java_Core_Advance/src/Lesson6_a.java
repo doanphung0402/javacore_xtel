@@ -33,7 +33,7 @@ public class Lesson6_a extends Thread {
          @Override
          public void run () {
              try {
-                 System.out.println("dang ghi ... ");
+                 System.out.println("Dang ghi ... ");
                  System.out.println("Nhap stop de ket thuc");
                      while(true){
                          if(!Thread.interrupted()){   //Kiem tra luong da bi interrup chua
